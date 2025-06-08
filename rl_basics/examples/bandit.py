@@ -200,4 +200,4 @@ if __name__ == "__main__":
     #test_decaying_epsilon_greedy_solver()
     #test_ucb_solver()
     #test_thompson_solver()
-    test_all_solver()
+    #test_all_solver()
