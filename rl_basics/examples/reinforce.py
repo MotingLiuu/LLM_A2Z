@@ -1,6 +1,6 @@
 import gymnasium as gym
 import torch
-import torch.nn.functional as F  # Corrected import
+import torch.nn.functional as F  
 import numpy as np
 import matplotlib.pyplot as plt
 from tqdm import tqdm
@@ -15,8 +15,8 @@ class PolicyNet(nn.Module):
 
     def forward(self, x):
         x = F.relu(self.fc1(x))
-        return F.softmax(self.fc2(x), dim=1) # dim=1 is correct for (batch_size, action_dim) output
-
+        return F.softmax(self.fc2(x), dim=1)
+    
 class REINFORCE:
     def __init__(self, state_dim, hidden_dim, action_dim, learning_rate, gamma, device):
         self.policy_net = PolicyNet(state_dim, hidden_dim, action_dim).to(device)
@@ -25,7 +25,7 @@ class REINFORCE:
         self.device = device
 
     def take_action(self, state):
-        # Convert single state numpy array to a PyTorch tensor with batch dimension
+
         state_tensor = torch.tensor(state, dtype=torch.float).unsqueeze(0).to(self.device)
         probs = self.policy_net(state_tensor)
         action_dist = torch.distributions.Categorical(probs)
@@ -37,37 +37,30 @@ class REINFORCE:
             states = transition_dict['states']   
             actions = transition_dict['actions']
 
-            # Calculate discounted returns (G_t)
             G = 0
             returns = []
             for r in reversed(rewards):
                 G = self.gamma * G + r
                 returns.insert(0, G)
 
-            # Convert lists to PyTorch tensors
             returns = torch.tensor(returns, dtype=torch.float, device=self.device)
             returns = returns.view(-1, 1)   # <— 变成 (N,1)
 
             states_tensor = torch.tensor(np.array(states), dtype=torch.float).to(self.device)
             actions_tensor = torch.tensor(np.array(actions), dtype=torch.long).view(-1, 1).to(self.device)
 
-            # --- FIX: Standardize the returns to reduce variance ---
-            # Add a small epsilon to avoid division by zero
+
             returns = (returns - returns.mean()) / (returns.std() + 1e-9) 
-            
-            # Calculate log probabilities for the actions taken
+
             log_probs = torch.log(self.policy_net(states_tensor).gather(1, actions_tensor))
 
-            # Calculate loss (policy gradient loss)
-            # The returns are now standardized advantages
+
             loss = -torch.mean(log_probs * returns)
 
-            # Perform optimization step
             self.optimizer.zero_grad()
             loss.backward()
             self.optimizer.step()
 
-# --- Training Loop ---
 learning_rate = 5e-4
 num_episodes = 1000
 hidden_dim = 128
@@ -75,10 +68,10 @@ gamma = 0.98
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 
 env_name = "CartPole-v0"
-env = gym.make(env_name) # Ensure you have gymnasium installed
+env = gym.make(env_name) 
 
-state_dim = env.observation_space.shape[0]
-action_dim = env.action_space.n
+state_dim = env.observation_space.shape[0] # env.observation是一个Box对象（定义了上下限的一个笛卡尔空概念），形状为(4,)
+action_dim = env.action_space.n # env.action_space is a discrete object, it represents a finite subset of integers {a, a+1,..., a+n-1}, n(int) represents the number of this space
 
 agent = REINFORCE(state_dim, hidden_dim, action_dim, learning_rate, gamma, device)
 
