@@ -1,0 +1,32 @@
+2025-06-14 18:20:29,082 INFO    MainThread:1570664 [wandb_setup.py:_flush():81] Current SDK version is 0.20.1
+2025-06-14 18:20:29,082 INFO    MainThread:1570664 [wandb_setup.py:_flush():81] Configure stats pid to 1570664
+2025-06-14 18:20:29,082 INFO    MainThread:1570664 [wandb_setup.py:_flush():81] Loading settings from /data/satori_hdd1/mutyuu/.config/wandb/settings
+2025-06-14 18:20:29,082 INFO    MainThread:1570664 [wandb_setup.py:_flush():81] Loading settings from /data/satori_hdd1/mutyuu/workspace/LLM_A2Z/example_wandb/wandb/settings
+2025-06-14 18:20:29,083 INFO    MainThread:1570664 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-06-14 18:20:29,083 INFO    MainThread:1570664 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /data/satori_hdd1/mutyuu/workspace/LLM_A2Z/example_wandb/wandb/run-20250614_182029-lcy5vp3e/logs/debug.log
+2025-06-14 18:20:29,083 INFO    MainThread:1570664 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /data/satori_hdd1/mutyuu/workspace/LLM_A2Z/example_wandb/wandb/run-20250614_182029-lcy5vp3e/logs/debug-internal.log
+2025-06-14 18:20:29,083 INFO    MainThread:1570664 [wandb_init.py:init():831] calling init triggers
+2025-06-14 18:20:29,083 INFO    MainThread:1570664 [wandb_init.py:init():836] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-06-14 18:20:29,084 INFO    MainThread:1570664 [wandb_init.py:init():872] starting backend
+2025-06-14 18:20:29,315 INFO    MainThread:1570664 [wandb_init.py:init():875] sending inform_init request
+2025-06-14 18:20:29,322 INFO    MainThread:1570664 [wandb_init.py:init():883] backend started and connected
+2025-06-14 18:20:29,323 INFO    MainThread:1570664 [wandb_init.py:init():956] updated telemetry
+2025-06-14 18:20:29,332 INFO    MainThread:1570664 [wandb_init.py:init():980] communicating run to backend with 300.0 second timeout
+2025-06-14 18:21:13,000 WARNING MainThread:1570664 [wandb_init.py:init():1613] [no run ID] interrupted
+Traceback (most recent call last):
+  File "/data/satori_hdd1/mutyuu/miniconda3/envs/wandb/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1609, in init
+    return wi.init(run_settings, run_config, run_printer)
+  File "/data/satori_hdd1/mutyuu/miniconda3/envs/wandb/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 999, in init
+    result = wait_with_progress(
+  File "/data/satori_hdd1/mutyuu/miniconda3/envs/wandb/lib/python3.10/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 24, in wait_with_progress
+    return wait_all_with_progress(
+  File "/data/satori_hdd1/mutyuu/miniconda3/envs/wandb/lib/python3.10/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 87, in wait_all_with_progress
+    return asyncio_compat.run(progress_loop_with_timeout)
+  File "/data/satori_hdd1/mutyuu/miniconda3/envs/wandb/lib/python3.10/site-packages/wandb/sdk/lib/asyncio_compat.py", line 30, in run
+    return future.result()
+  File "/data/satori_hdd1/mutyuu/miniconda3/envs/wandb/lib/python3.10/concurrent/futures/_base.py", line 453, in result
+    self._condition.wait(timeout)
+  File "/data/satori_hdd1/mutyuu/miniconda3/envs/wandb/lib/python3.10/threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
