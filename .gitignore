@@ -2,3 +2,4 @@ data/
 .log
 trl/
 test_trainer/
+models/
