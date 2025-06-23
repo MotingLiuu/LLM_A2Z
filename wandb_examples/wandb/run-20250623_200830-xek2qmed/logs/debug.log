@@ -1,0 +1,33 @@
+2025-06-23 20:08:30,564 INFO    MainThread:2796514 [wandb_setup.py:_flush():76] Configure stats pid to 2796514
+2025-06-23 20:08:30,565 INFO    MainThread:2796514 [wandb_setup.py:_flush():76] Loading settings from /data/satori_hdd1/mutyuu/.config/wandb/settings
+2025-06-23 20:08:30,565 INFO    MainThread:2796514 [wandb_setup.py:_flush():76] Loading settings from /data/satori_hdd1/mutyuu/workspace/LLM_A2Z/wandb_examples/wandb/settings
+2025-06-23 20:08:30,565 INFO    MainThread:2796514 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2025-06-23 20:08:30,565 INFO    MainThread:2796514 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-06-23 20:08:30,565 INFO    MainThread:2796514 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wandb_examples/wandb_example.py', 'program': '/data/satori_hdd1/mutyuu/workspace/LLM_A2Z/wandb_examples/wandb_example.py'}
+2025-06-23 20:08:30,565 INFO    MainThread:2796514 [wandb_init.py:_log_setup():506] Logging user logs to /data/satori_hdd1/mutyuu/workspace/LLM_A2Z/wandb_examples/wandb/run-20250623_200830-xek2qmed/logs/debug.log
+2025-06-23 20:08:30,565 INFO    MainThread:2796514 [wandb_init.py:_log_setup():507] Logging internal logs to /data/satori_hdd1/mutyuu/workspace/LLM_A2Z/wandb_examples/wandb/run-20250623_200830-xek2qmed/logs/debug-internal.log
+2025-06-23 20:08:30,566 INFO    MainThread:2796514 [wandb_init.py:init():546] calling init triggers
+2025-06-23 20:08:30,566 INFO    MainThread:2796514 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.018747607109914192, 'epochs': 10, 'batch_size': 32, 'optimizer': 'SGD', 'dropout_rate': 0.32675969079094824}
+2025-06-23 20:08:30,566 INFO    MainThread:2796514 [wandb_init.py:init():602] starting backend
+2025-06-23 20:08:30,566 INFO    MainThread:2796514 [wandb_init.py:init():606] setting up manager
+2025-06-23 20:08:30,569 INFO    MainThread:2796514 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-06-23 20:08:30,573 INFO    MainThread:2796514 [wandb_init.py:init():613] backend started and connected
+2025-06-23 20:08:30,575 INFO    MainThread:2796514 [wandb_init.py:init():701] updated telemetry
+2025-06-23 20:08:30,586 INFO    MainThread:2796514 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2025-06-23 20:08:31,254 INFO    MainThread:2796514 [wandb_run.py:_on_init():2131] communicating current version
+2025-06-23 20:08:31,338 INFO    MainThread:2796514 [wandb_run.py:_on_init():2140] got version response upgrade_message: "wandb version 0.20.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-06-23 20:08:31,338 INFO    MainThread:2796514 [wandb_init.py:init():789] starting run threads in backend
+2025-06-23 20:08:36,650 INFO    MainThread:2796514 [wandb_run.py:_console_start():2112] atexit reg
+2025-06-23 20:08:36,650 INFO    MainThread:2796514 [wandb_run.py:_redirect():1967] redirect: SettingsConsole.WRAP_RAW
+2025-06-23 20:08:36,651 INFO    MainThread:2796514 [wandb_run.py:_redirect():2032] Wrapping output streams.
+2025-06-23 20:08:36,651 INFO    MainThread:2796514 [wandb_run.py:_redirect():2057] Redirects installed.
+2025-06-23 20:08:36,652 INFO    MainThread:2796514 [wandb_init.py:init():831] run started, returning control to user process
+2025-06-23 20:08:42,715 INFO    MainThread:2796514 [wandb_run.py:_finish():1852] finishing run mutyuu/huggingface_example/xek2qmed
+2025-06-23 20:08:42,715 INFO    MainThread:2796514 [wandb_run.py:_atexit_cleanup():2081] got exitcode: 0
+2025-06-23 20:08:42,716 INFO    MainThread:2796514 [wandb_run.py:_restore():2064] restore
+2025-06-23 20:08:42,716 INFO    MainThread:2796514 [wandb_run.py:_restore():2070] restore done
+2025-06-23 20:08:47,769 WARNING MsgRouterThr:2796514 [router.py:message_loop():77] message_loop has been closed
+2025-06-23 20:08:53,719 INFO    MainThread:2796514 [wandb_run.py:_restore():2064] restore
+2025-06-23 20:08:53,719 INFO    MainThread:2796514 [wandb_run.py:_restore():2070] restore done
