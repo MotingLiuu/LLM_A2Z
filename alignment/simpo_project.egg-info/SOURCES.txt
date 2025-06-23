@@ -1,0 +1,7 @@
+pyproject.toml
+simpo/__init__.py
+simpo/utils.py
+simpo_project.egg-info/PKG-INFO
+simpo_project.egg-info/SOURCES.txt
+simpo_project.egg-info/dependency_links.txt
+simpo_project.egg-info/top_level.txt
