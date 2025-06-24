@@ -1,0 +1,63 @@
+{
+  "os": "Linux-6.8.0-51-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.13.2",
+  "startedAt": "2025-06-24T09:46:00.638595Z",
+  "program": "/data/satori_hdd1/mutyuu/workspace/LLM_A2Z/wandb_examples/wandb1.py",
+  "codePath": "wandb_examples/wandb1.py",
+  "git": {
+    "remote": "https://github.com/MotingLiuu/LLM_A2Z.git",
+    "commit": "570abdab1365791e07b6d32489dd0af318f068c7"
+  },
+  "root": "/data/satori_hdd1/mutyuu/workspace/LLM_A2Z/wandb_examples",
+  "host": "steve",
+  "executable": "/data/satori_hdd1/mutyuu/miniconda3/envs/CS336/bin/python",
+  "codePathLocal": "wandb1.py",
+  "cpu_count": 64,
+  "cpu_count_logical": 64,
+  "gpu": "NVIDIA RTX A6000",
+  "gpu_count": 4,
+  "disk": {
+    "/": {
+      "total": "3759901253632",
+      "used": "431692447744"
+    }
+  },
+  "memory": {
+    "total": "1068959698944"
+  },
+  "cpu": {
+    "count": 64,
+    "countLogical": 64
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "51527024640",
+      "cudaCores": 10752,
+      "architecture": "Ampere",
+      "uuid": "GPU-9b3995cd-1d07-f348-10b3-f96fdb5c2dd5"
+    },
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "51527024640",
+      "cudaCores": 10752,
+      "architecture": "Ampere",
+      "uuid": "GPU-86dda5e0-8deb-c259-1c4f-cc2eae1f030a"
+    },
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "51527024640",
+      "cudaCores": 10752,
+      "architecture": "Ampere",
+      "uuid": "GPU-713f568d-395f-090e-e1f5-ebd44074ff56"
+    },
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "51527024640",
+      "cudaCores": 10752,
+      "architecture": "Ampere",
+      "uuid": "GPU-77eef066-61a8-da29-2c2a-bc56e88e28d6"
+    }
+  ],
+  "cudaVersion": "12.4"
+}

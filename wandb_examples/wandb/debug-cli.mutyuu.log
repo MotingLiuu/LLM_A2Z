@@ -1,0 +1,160 @@
+2025-06-24 17:39:22 DEBUG send: b'PUT /wandb-production.appspot.com/mutyuu/my-awesome-project/xcwp3n0n/requirements.txt?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com%2F20250624%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250624T083922Z&X-Goog-Expires=86399&X-Goog-Signature=052e8e06e286e609b0839bcb9cf715c8d52cd058fc324383ba40818e670f211e1236265dacfbb306f757299cb0acb853df760ff0df105c445cd25d580cf8a36eddd6a4307adfc51a58fceed8dbba0797f24eb3baede95cb3ea8461d629b78f7b32a192189c47c1db8d3897a65115116e4dca63f7294542f21be4dec686061a74a241ad283e2934bf9046eab2c2f1b071aa3f88026e0fe8b2d0cba5e59b8938f81a22f5f5d91a5a2759545a25fa96abcd9b227a98ab83221221c8558714420236d60580c7d986fb06832f7a297ea7a20550ddd39fc98365384c18ae20cd08b02e6b7c750fef4197915bf4d70753213cbed830c9723298b59668054079c5b8fb92&X-Goog-SignedHeaders=host&X-User=moting-liuu HTTP/1.1\r\nHost: storage.googleapis.com\r\nUser-Agent: python-requests/2.32.3\r\nAccept-Encoding: gzip, deflate, br, zstd\r\nAccept: */*\r\nConnection: keep-alive\r\nContent-Length: 1029\r\n\r\n'
+2025-06-24 17:39:22 DEBUG send: b'conda-anaconda-telemetry==0.1.2\nconda-content-trust==0.2.0\npycparser==2.21\npydantic==2.10.3\nannotated-types==0.6.0\nPyYAML==6.0.2\nruamel.yaml==0.18.6\nrequests==2.32.3\nruamel.yaml.clib==0.2.8\nsetproctitle==1.3.6\nrich==13.9.4\nlibmambapy==2.0.5\njsonpointer==2.1\nsetuptools==75.8.0\nGitPython==3.1.44\nconda_package_streaming==0.11.0\ngitdb==4.0.12\njsonpatch==1.33\ncharset-normalizer==3.3.2\nfrozendict==2.4.2\npackaging==24.2\nzstandard==0.23.0\nBrotli==1.0.9\narchspec==0.2.3\nmdurl==0.1.0\nconda-libmamba-solver==25.1.1\npsutil==7.0.0\npluggy==1.5.0\nsentry-sdk==2.30.0\npycosat==0.6.6\ndistro==1.9.0\nclick==8.2.1\ntqdm==4.67.1\nconda==25.1.1\ncffi==1.17.1\ncertifi==2025.1.31\npip==25.1.1\nconda-package-handling==2.4.0\nPygments==2.15.1\npydantic_core==2.27.1\nmarkdown-it-py==2.2.0\nwandb==0.20.1\nprotobuf==6.31.1\nconda-anaconda-tos==0.1.2\ntyping_extensions==4.12.2\ncryptography==43.0.3\nboltons==24.1.0\nurllib3==2.3.0\nmenuinst==2.2.0\nidna==3.7\nwheel==0.45.1\nanaconda-anon-usage==0.5.0\nPySocks==1.7.1\nsmmap==5.0.2\nplatformdirs==3.10.0\ntruststore==0.10.0\n'
+2025-06-24 17:39:22 DEBUG send: b'PUT /wandb-production.appspot.com/mutyuu/my-awesome-project/xcwp3n0n/wandb-metadata.json?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com%2F20250624%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250624T083922Z&X-Goog-Expires=86399&X-Goog-Signature=4a4c9ddc698524931362c25f78ae83b03e72a61c0c3caa3c438be0b989155bb7c167c9437b8f3ee1fd545e348c36710880279bc6847e837b2f3396fd8ccc484eb67e52db6e76496b914d21651a49d7e3a3fd08259e7df16c620190972909200dc2c9b46910cf898d3132d1da370fa7f143ebc9c8ac4c44aa88ed8645e53dfab8be37fae47d5d0c28239f1744cc0a4da5e4de610e1fff6b5f91e838c1738accf354dbf299bd68b6c7f78a48305ea1e583af3ba70f629bb920203cc9e68e32558f64b99e9b9fa8374d67da4fcb8eef79eda555249d14ef0050f93029e4c67c4659e0873e58122025a6d1b98bebe048c7abeb0a4436de478536864ae1e65160e0af&X-Goog-SignedHeaders=host&X-User=moting-liuu HTTP/1.1\r\nHost: storage.googleapis.com\r\nUser-Agent: python-requests/2.32.3\r\nAccept-Encoding: gzip, deflate, br, zstd\r\nAccept: */*\r\nConnection: keep-alive\r\nContent-Length: 1717\r\n\r\n'
+2025-06-24 17:39:22 DEBUG send: b'{\n  "os": "Linux-6.8.0-51-generic-x86_64-with-glibc2.35",\n  "python": "CPython 3.12.9",\n  "startedAt": "2025-06-24T08:38:52.768718Z",\n  "program": "/data/satori_hdd1/mutyuu/workspace/LLM_A2Z/wandb_examples/wandb_e1.py",\n  "codePath": "wandb_examples/wandb_e1.py",\n  "git": {\n    "remote": "https://github.com/MotingLiuu/LLM_A2Z.git",\n    "commit": "570abdab1365791e07b6d32489dd0af318f068c7"\n  },\n  "root": "/data/satori_hdd1/mutyuu/workspace/LLM_A2Z/wandb_examples",\n  "host": "steve",\n  "executable": "/data/satori_hdd1/mutyuu/miniconda3/bin/python",\n  "codePathLocal": "wandb_e1.py",\n  "cpu_count": 64,\n  "cpu_count_logical": 64,\n  "gpu": "NVIDIA RTX A6000",\n  "gpu_count": 4,\n  "disk": {\n    "/": {\n      "total": "3759901253632",\n      "used": "431673647104"\n    }\n  },\n  "memory": {\n    "total": "1068959698944"\n  },\n  "cpu": {\n    "count": 64,\n    "countLogical": 64\n  },\n  "gpu_nvidia": [\n    {\n      "name": "NVIDIA RTX A6000",\n      "memoryTotal": "51527024640",\n      "cudaCores": 10752,\n      "architecture": "Ampere",\n      "uuid": "GPU-9b3995cd-1d07-f348-10b3-f96fdb5c2dd5"\n    },\n    {\n      "name": "NVIDIA RTX A6000",\n      "memoryTotal": "51527024640",\n      "cudaCores": 10752,\n      "architecture": "Ampere",\n      "uuid": "GPU-86dda5e0-8deb-c259-1c4f-cc2eae1f030a"\n    },\n    {\n      "name": "NVIDIA RTX A6000",\n      "memoryTotal": "51527024640",\n      "cudaCores": 10752,\n      "architecture": "Ampere",\n      "uuid": "GPU-713f568d-395f-090e-e1f5-ebd44074ff56"\n    },\n    {\n      "name": "NVIDIA RTX A6000",\n      "memoryTotal": "51527024640",\n      "cudaCores": 10752,\n      "architecture": "Ampere",\n      "uuid": "GPU-77eef066-61a8-da29-2c2a-bc56e88e28d6"\n    }\n  ],\n  "cudaVersion": "12.4"\n}'
+2025-06-24 17:39:22 DEBUG reply: 'HTTP/1.1 200 OK\r\n'
+2025-06-24 17:39:22 DEBUG header: X-GUploader-UploadID: ABgVH8_BDQjaskeORWMzTXTYSQJ9RwVjWNsPrZhY5RWVz2Q3z-pZtisvqhYcnVwx4WStKn4
+2025-06-24 17:39:22 DEBUG header: ETag: "56308bce8e136874afedb70fc7cd65a6"
+2025-06-24 17:39:22 DEBUG header: x-goog-generation: 1750754362739570
+2025-06-24 17:39:22 DEBUG header: x-goog-metageneration: 1
+2025-06-24 17:39:22 DEBUG header: x-goog-hash: crc32c=y/ZhTQ==
+2025-06-24 17:39:22 DEBUG header: x-goog-hash: md5=VjCLzo4TaHSv7bcPx81lpg==
+2025-06-24 17:39:22 DEBUG header: x-goog-stored-content-length: 1029
+2025-06-24 17:39:22 DEBUG header: x-goog-stored-content-encoding: identity
+2025-06-24 17:39:22 DEBUG header: Vary: Origin
+2025-06-24 17:39:22 DEBUG header: Content-Length: 0
+2025-06-24 17:39:22 DEBUG header: Date: Tue, 24 Jun 2025 08:39:22 GMT
+2025-06-24 17:39:22 DEBUG header: Server: UploadServer
+2025-06-24 17:39:22 DEBUG header: Content-Type: text/html; charset=UTF-8
+2025-06-24 17:39:22 DEBUG header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+2025-06-24 17:39:22 DEBUG reply: 'HTTP/1.1 200 OK\r\n'
+2025-06-24 17:39:22 DEBUG header: X-GUploader-UploadID: ABgVH88VNGqBlnAKbGPeZMXToPk9_0bzAJzoLZIx2LMfm5GwvvWN9uXvNSWngMxr30SPFWQ
+2025-06-24 17:39:22 DEBUG header: ETag: "e39f686960dd78ca757b044b8eaa07c6"
+2025-06-24 17:39:22 DEBUG header: x-goog-generation: 1750754362801037
+2025-06-24 17:39:22 DEBUG header: x-goog-metageneration: 1
+2025-06-24 17:39:22 DEBUG header: x-goog-hash: crc32c=Np3x6w==
+2025-06-24 17:39:22 DEBUG header: x-goog-hash: md5=459oaWDdeMp1ewRLjqoHxg==
+2025-06-24 17:39:22 DEBUG header: x-goog-stored-content-length: 1717
+2025-06-24 17:39:22 DEBUG header: x-goog-stored-content-encoding: identity
+2025-06-24 17:39:22 DEBUG header: Vary: Origin
+2025-06-24 17:39:22 DEBUG header: Content-Length: 0
+2025-06-24 17:39:22 DEBUG header: Date: Tue, 24 Jun 2025 08:39:22 GMT
+2025-06-24 17:39:22 DEBUG header: Server: UploadServer
+2025-06-24 17:39:22 DEBUG header: Content-Type: text/html; charset=UTF-8
+2025-06-24 17:39:22 DEBUG header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+2025-06-24 17:39:22 DEBUG send: b'POST /graphql HTTP/1.1\r\nHost: api.wandb.ai\r\nUser-Agent: W&B Internal Client 0.20.1\r\nAccept-Encoding: gzip, deflate, br, zstd\r\nAccept: */*\r\nConnection: keep-alive\r\nContent-Length: 423\r\nContent-Type: application/json\r\nAuthorization: Basic YXBpOmY1NGRiYTBiZTFmNjZlNzkxZDc0NGI3NzdiZmJlYjRjNDUyODQyMDI=\r\n\r\n'
+2025-06-24 17:39:22 DEBUG send: b'{"query": "mutation CreateRunFiles($entity: String!, $project: String!, $run: String!, $files: [String!]!) {\\n  createRunFiles(input: {entityName: $entity, projectName: $project, runName: $run, files: $files}) {\\n    runID\\n    uploadHeaders\\n    files {\\n      name\\n      uploadUrl\\n    }\\n  }\\n}\\n", "variables": {"project": "my-awesome-project", "run": "xcwp3n0n", "entity": "mutyuu", "files": ["wandb-metadata.json"]}}'
+2025-06-24 17:39:23 DEBUG send: b'POST /graphql HTTP/1.1\r\nHost: api.wandb.ai\r\nUser-Agent: W&B Internal Client 0.20.1\r\nAccept-Encoding: gzip, deflate, br, zstd\r\nAccept: */*\r\nConnection: keep-alive\r\nContent-Length: 415\r\nContent-Type: application/json\r\nAuthorization: Basic YXBpOmY1NGRiYTBiZTFmNjZlNzkxZDc0NGI3NzdiZmJlYjRjNDUyODQyMDI=\r\n\r\n'
+2025-06-24 17:39:23 DEBUG send: b'{"query": "mutation CreateRunFiles($entity: String!, $project: String!, $run: String!, $files: [String!]!) {\\n  createRunFiles(input: {entityName: $entity, projectName: $project, runName: $run, files: $files}) {\\n    runID\\n    uploadHeaders\\n    files {\\n      name\\n      uploadUrl\\n    }\\n  }\\n}\\n", "variables": {"project": "my-awesome-project", "run": "xcwp3n0n", "entity": "mutyuu", "files": ["config.yaml"]}}'
+2025-06-24 17:39:23 DEBUG send: b'POST /graphql HTTP/1.1\r\nHost: api.wandb.ai\r\nUser-Agent: W&B Internal Client 0.20.1\r\nAccept-Encoding: gzip, deflate, br, zstd\r\nAccept: */*\r\nConnection: keep-alive\r\nContent-Length: 422\r\nContent-Type: application/json\r\nAuthorization: Basic YXBpOmY1NGRiYTBiZTFmNjZlNzkxZDc0NGI3NzdiZmJlYjRjNDUyODQyMDI=\r\n\r\n'
+2025-06-24 17:39:23 DEBUG send: b'{"query": "mutation CreateRunFiles($entity: String!, $project: String!, $run: String!, $files: [String!]!) {\\n  createRunFiles(input: {entityName: $entity, projectName: $project, runName: $run, files: $files}) {\\n    runID\\n    uploadHeaders\\n    files {\\n      name\\n      uploadUrl\\n    }\\n  }\\n}\\n", "variables": {"project": "my-awesome-project", "run": "xcwp3n0n", "entity": "mutyuu", "files": ["wandb-summary.json"]}}'
+2025-06-24 17:39:23 DEBUG reply: 'HTTP/1.1 200 OK\r\n'
+2025-06-24 17:39:23 DEBUG header: Content-Encoding: br
+2025-06-24 17:39:23 DEBUG header: Content-Type: application/json; charset=utf-8
+2025-06-24 17:39:23 DEBUG header: Vary: Origin
+2025-06-24 17:39:23 DEBUG header: X-Content-Type-Options: nosniff
+2025-06-24 17:39:23 DEBUG header: X-Ratelimit-Limit: 750
+2025-06-24 17:39:23 DEBUG header: X-Ratelimit-Remaining: 742
+2025-06-24 17:39:23 DEBUG header: Date: Tue, 24 Jun 2025 08:39:23 GMT
+2025-06-24 17:39:23 DEBUG header: Content-Length: 699
+2025-06-24 17:39:23 DEBUG header: Via: 1.1 google
+2025-06-24 17:39:23 DEBUG header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+2025-06-24 17:39:23 DEBUG send: b'PUT /wandb-production.appspot.com/mutyuu/my-awesome-project/xcwp3n0n/config.yaml?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com%2F20250624%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250624T083923Z&X-Goog-Expires=86399&X-Goog-Signature=7677a29f94a38bd429399261176b1e0c175808d61f46c36ed97f23e7d7bc2ef9bfe44b80dfaabfcdb4a6723a4d8403efa7cc9596f7a02a02ec66b9082e71eef4f570921dc95ef2334215dc7ecbee6028f53c9b91641151553df553c71579f2ab77d703f159661fa067cc84d1ca5ec1764b4f08ba8a889bcd99abc98306a47becd5ae98e3479f520ad056d40a5ea1c91e5570be4a760e995787c85b7cf97ac9c4d43307dc3fd6a7447c071d66b3d2644ade3b68592a8a1d18e975a96bb26ec350f1af52c7f258b402a162e027d51ec623eec36f051c5cf8bd94bf4cb12099e129639dfc3fa90f8d70acde613f5a7c1096cc2c718d0dd3d12bead3a65ba71b66be&X-Goog-SignedHeaders=host&X-User=moting-liuu HTTP/1.1\r\nHost: storage.googleapis.com\r\nUser-Agent: python-requests/2.32.3\r\nAccept-Encoding: gzip, deflate, br, zstd\r\nAccept: */*\r\nConnection: keep-alive\r\nContent-Length: 369\r\n\r\n'
+2025-06-24 17:39:23 DEBUG send: b'wandb_version: 1\n\n_wandb:\n  desc: null\n  value:\n    python_version: 3.12.9\n    cli_version: 0.20.1\n    is_jupyter_run: false\n    is_kaggle_kernel: false\n    start_time: 1750754332\n    t:\n      3:\n      - 4\n      - 16\n      - 42\n      - 55\n      4: 3.12.9\n      5: 0.20.1\n      13: linux-x86_64\nlearning_rate:\n  desc: null\n  value: 0.01\nepochs:\n  desc: null\n  value: 10\n'
+2025-06-24 17:39:23 DEBUG reply: 'HTTP/1.1 200 OK\r\n'
+2025-06-24 17:39:23 DEBUG header: Content-Encoding: br
+2025-06-24 17:39:23 DEBUG header: Content-Type: application/json; charset=utf-8
+2025-06-24 17:39:23 DEBUG header: Vary: Origin
+2025-06-24 17:39:23 DEBUG header: X-Content-Type-Options: nosniff
+2025-06-24 17:39:23 DEBUG header: X-Ratelimit-Limit: 750
+2025-06-24 17:39:23 DEBUG header: X-Ratelimit-Remaining: 741
+2025-06-24 17:39:23 DEBUG header: Date: Tue, 24 Jun 2025 08:39:23 GMT
+2025-06-24 17:39:23 DEBUG header: Content-Length: 705
+2025-06-24 17:39:23 DEBUG header: Via: 1.1 google
+2025-06-24 17:39:23 DEBUG header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+2025-06-24 17:39:23 DEBUG send: b'PUT /wandb-production.appspot.com/mutyuu/my-awesome-project/xcwp3n0n/wandb-summary.json?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com%2F20250624%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250624T083923Z&X-Goog-Expires=86399&X-Goog-Signature=98d69b604a4f89249ee0965265998e24a6f092d91e09052de0d55aae9799c16cb7937e75772c220cecd6f9ea0727c05c05d69bc47e0b1a9469b44bf9c372540caed50cfd3e6b2db0bb33193725a52a743f546a87882ee2500f0c39807a68235c696e9410283eda5d1693dd5da88a71055ca4d34ad652035f1aba4ae3fb453dd0c4f335f0fd47ee8cd276ce97cd763e92d81c017887d15c1f587cd30ffed02d7a91ddc5bad1b2894cb1b0b4cefe0c3fd54e06831ccbcf434afee341533a2e49d08795419abc4668557c2177d1a91e255e267674b1868fca5a5094b74ca058ee122b0102d2ee4eb29ddc0af877348e52c3ce1371d73683c755d40fdb78e58febee&X-Goog-SignedHeaders=host&X-User=moting-liuu HTTP/1.1\r\nHost: storage.googleapis.com\r\nUser-Agent: python-requests/2.32.3\r\nAccept-Encoding: gzip, deflate, br, zstd\r\nAccept: */*\r\nConnection: keep-alive\r\nContent-Length: 2\r\n\r\n'
+2025-06-24 17:39:23 DEBUG send: b'{}'
+2025-06-24 17:39:23 DEBUG reply: 'HTTP/1.1 200 OK\r\n'
+2025-06-24 17:39:23 DEBUG header: X-GUploader-UploadID: ABgVH8_-BLgDmghXM3VBAGs9sXNPF_4NCajLhpv4L9LfZii3EpDS1goYYpSbs9B0Fh4KdCg
+2025-06-24 17:39:23 DEBUG header: ETag: "d2e7f642df4b581cb7449b2a023774e2"
+2025-06-24 17:39:23 DEBUG header: x-goog-generation: 1750754363507866
+2025-06-24 17:39:23 DEBUG header: x-goog-metageneration: 1
+2025-06-24 17:39:23 DEBUG header: x-goog-hash: crc32c=OJZLrQ==
+2025-06-24 17:39:23 DEBUG header: x-goog-hash: md5=0uf2Qt9LWBy3RJsqAjd04g==
+2025-06-24 17:39:23 DEBUG header: x-goog-stored-content-length: 369
+2025-06-24 17:39:23 DEBUG header: x-goog-stored-content-encoding: identity
+2025-06-24 17:39:23 DEBUG header: Vary: Origin
+2025-06-24 17:39:23 DEBUG header: Content-Length: 0
+2025-06-24 17:39:23 DEBUG header: Date: Tue, 24 Jun 2025 08:39:23 GMT
+2025-06-24 17:39:23 DEBUG header: Server: UploadServer
+2025-06-24 17:39:23 DEBUG header: Content-Type: text/html; charset=UTF-8
+2025-06-24 17:39:23 DEBUG header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+2025-06-24 17:39:23 DEBUG reply: 'HTTP/1.1 200 OK\r\n'
+2025-06-24 17:39:23 DEBUG header: X-GUploader-UploadID: ABgVH8_bJOtLpW2S0gumZHx4mFeicDslALbQfj0VRJNBLbiEH8CbbwY8wAoNlbShPYXiOqo
+2025-06-24 17:39:23 DEBUG header: ETag: "99914b932bd37a50b983c5e7c90ae93b"
+2025-06-24 17:39:23 DEBUG header: x-goog-generation: 1750754363568833
+2025-06-24 17:39:23 DEBUG header: x-goog-metageneration: 1
+2025-06-24 17:39:23 DEBUG header: x-goog-hash: crc32c=KXvQqg==
+2025-06-24 17:39:23 DEBUG header: x-goog-hash: md5=mZFLkyvTelC5g8XnyQrpOw==
+2025-06-24 17:39:23 DEBUG header: x-goog-stored-content-length: 2
+2025-06-24 17:39:23 DEBUG header: x-goog-stored-content-encoding: identity
+2025-06-24 17:39:23 DEBUG header: Vary: Origin
+2025-06-24 17:39:23 DEBUG header: Content-Length: 0
+2025-06-24 17:39:23 DEBUG header: Date: Tue, 24 Jun 2025 08:39:23 GMT
+2025-06-24 17:39:23 DEBUG header: Server: UploadServer
+2025-06-24 17:39:23 DEBUG header: Content-Type: text/html; charset=UTF-8
+2025-06-24 17:39:23 DEBUG header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+2025-06-24 17:39:24 DEBUG reply: 'HTTP/1.1 200 OK\r\n'
+2025-06-24 17:39:24 DEBUG header: Content-Encoding: br
+2025-06-24 17:39:24 DEBUG header: Content-Type: application/json; charset=utf-8
+2025-06-24 17:39:24 DEBUG header: Vary: Origin
+2025-06-24 17:39:24 DEBUG header: X-Content-Type-Options: nosniff
+2025-06-24 17:39:24 DEBUG header: X-Ratelimit-Limit: 750
+2025-06-24 17:39:24 DEBUG header: X-Ratelimit-Remaining: 743
+2025-06-24 17:39:24 DEBUG header: Date: Tue, 24 Jun 2025 08:39:24 GMT
+2025-06-24 17:39:24 DEBUG header: Content-Length: 705
+2025-06-24 17:39:24 DEBUG header: Via: 1.1 google
+2025-06-24 17:39:24 DEBUG header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+2025-06-24 17:39:24 DEBUG send: b'PUT /wandb-production.appspot.com/mutyuu/my-awesome-project/xcwp3n0n/wandb-metadata.json?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com%2F20250624%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250624T083924Z&X-Goog-Expires=86399&X-Goog-Signature=03e408402c7c1fa1a78d37d47f71f8c5985e51b3682432c005db4529f6966b7bbd524ae151e22776c6a9bf27219ee767b8050c0d2711ba151af7e2f274a7ef889c9e8d99ec324faf9a16c121c8cb0e5c3fc93a992cd1c8fe57ec6cd01bed4d77c0671da6b1c6a6139e9ecd781e70b4e89ae75a08674961652d09d67ce61b86c1f983c2374dae6b2582f0f818d3a711349e1840d19e32cb4f17c9ded2e91fe58e34d5eb3c8ff81e7ee4277b8bf0e4293a90aaa54ce769bee1deafd6fd77271c548b11cfcf81b3ce1574c090e1818f0f8cd6beede94876384f68a59c48c56672643f0551e2ac6f776d50a3321f9515a9addb395f91e4e81d5f16f247d838f1ef56&X-Goog-SignedHeaders=host&X-User=moting-liuu HTTP/1.1\r\nHost: storage.googleapis.com\r\nUser-Agent: python-requests/2.32.3\r\nAccept-Encoding: gzip, deflate, br, zstd\r\nAccept: */*\r\nConnection: keep-alive\r\nContent-Length: 1717\r\n\r\n'
+2025-06-24 17:39:24 DEBUG send: b'{\n  "os": "Linux-6.8.0-51-generic-x86_64-with-glibc2.35",\n  "python": "CPython 3.12.9",\n  "startedAt": "2025-06-24T08:38:52.768718Z",\n  "program": "/data/satori_hdd1/mutyuu/workspace/LLM_A2Z/wandb_examples/wandb_e1.py",\n  "codePath": "wandb_examples/wandb_e1.py",\n  "git": {\n    "remote": "https://github.com/MotingLiuu/LLM_A2Z.git",\n    "commit": "570abdab1365791e07b6d32489dd0af318f068c7"\n  },\n  "root": "/data/satori_hdd1/mutyuu/workspace/LLM_A2Z/wandb_examples",\n  "host": "steve",\n  "executable": "/data/satori_hdd1/mutyuu/miniconda3/bin/python",\n  "codePathLocal": "wandb_e1.py",\n  "cpu_count": 64,\n  "cpu_count_logical": 64,\n  "gpu": "NVIDIA RTX A6000",\n  "gpu_count": 4,\n  "disk": {\n    "/": {\n      "total": "3759901253632",\n      "used": "431673647104"\n    }\n  },\n  "memory": {\n    "total": "1068959698944"\n  },\n  "cpu": {\n    "count": 64,\n    "countLogical": 64\n  },\n  "gpu_nvidia": [\n    {\n      "name": "NVIDIA RTX A6000",\n      "memoryTotal": "51527024640",\n      "cudaCores": 10752,\n      "architecture": "Ampere",\n      "uuid": "GPU-9b3995cd-1d07-f348-10b3-f96fdb5c2dd5"\n    },\n    {\n      "name": "NVIDIA RTX A6000",\n      "memoryTotal": "51527024640",\n      "cudaCores": 10752,\n      "architecture": "Ampere",\n      "uuid": "GPU-86dda5e0-8deb-c259-1c4f-cc2eae1f030a"\n    },\n    {\n      "name": "NVIDIA RTX A6000",\n      "memoryTotal": "51527024640",\n      "cudaCores": 10752,\n      "architecture": "Ampere",\n      "uuid": "GPU-713f568d-395f-090e-e1f5-ebd44074ff56"\n    },\n    {\n      "name": "NVIDIA RTX A6000",\n      "memoryTotal": "51527024640",\n      "cudaCores": 10752,\n      "architecture": "Ampere",\n      "uuid": "GPU-77eef066-61a8-da29-2c2a-bc56e88e28d6"\n    }\n  ],\n  "cudaVersion": "12.4"\n}'
+2025-06-24 17:39:24 DEBUG reply: 'HTTP/1.1 200 OK\r\n'
+2025-06-24 17:39:24 DEBUG header: X-GUploader-UploadID: ABgVH89ZSH3A3R-0RJoxtHfsUbzsbjAuu6fT8H3AxaDbj5f_J2zQRzOsWibfIZ3PGmNRHIs
+2025-06-24 17:39:24 DEBUG header: ETag: "e39f686960dd78ca757b044b8eaa07c6"
+2025-06-24 17:39:24 DEBUG header: x-goog-generation: 1750754364581183
+2025-06-24 17:39:24 DEBUG header: x-goog-metageneration: 1
+2025-06-24 17:39:24 DEBUG header: x-goog-hash: crc32c=Np3x6w==
+2025-06-24 17:39:24 DEBUG header: x-goog-hash: md5=459oaWDdeMp1ewRLjqoHxg==
+2025-06-24 17:39:24 DEBUG header: x-goog-stored-content-length: 1717
+2025-06-24 17:39:24 DEBUG header: x-goog-stored-content-encoding: identity
+2025-06-24 17:39:24 DEBUG header: Vary: Origin
+2025-06-24 17:39:24 DEBUG header: Content-Length: 0
+2025-06-24 17:39:24 DEBUG header: Date: Tue, 24 Jun 2025 08:39:24 GMT
+2025-06-24 17:39:24 DEBUG header: Server: UploadServer
+2025-06-24 17:39:24 DEBUG header: Content-Type: text/html; charset=UTF-8
+2025-06-24 17:39:24 DEBUG header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+2025-06-24 17:39:24 DEBUG send: b'POST /files/mutyuu/my-awesome-project/xcwp3n0n/file_stream HTTP/1.1\r\nHost: api.wandb.ai\r\nUser-Agent: W&B Internal Client 0.20.1\r\nAccept-Encoding: gzip, deflate, br, zstd\r\nAccept: */*\r\nConnection: keep-alive\r\nContent-Length: 81\r\nContent-Type: application/json\r\nAuthorization: Basic YXBpOmY1NGRiYTBiZTFmNjZlNzkxZDc0NGI3NzdiZmJlYjRjNDUyODQyMDI=\r\n\r\n'
+2025-06-24 17:39:24 DEBUG send: b'{"files": {"wandb-summary.json": {"offset": 0, "content": ["{}"]}}, "dropped": 0}'
+2025-06-24 17:39:25 DEBUG reply: 'HTTP/1.1 200 OK\r\n'
+2025-06-24 17:39:25 DEBUG header: Content-Encoding: br
+2025-06-24 17:39:25 DEBUG header: Ratelimit-Limit: 1000
+2025-06-24 17:39:25 DEBUG header: Ratelimit-Remaining: 986
+2025-06-24 17:39:25 DEBUG header: Ratelimit-Reset: 6
+2025-06-24 17:39:25 DEBUG header: Vary: Origin
+2025-06-24 17:39:25 DEBUG header: Date: Tue, 24 Jun 2025 08:39:24 GMT
+2025-06-24 17:39:25 DEBUG header: Content-Length: 208
+2025-06-24 17:39:25 DEBUG header: Via: 1.1 google
+2025-06-24 17:39:25 DEBUG header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+2025-06-24 17:39:25 DEBUG send: b'POST /files/mutyuu/my-awesome-project/xcwp3n0n/file_stream HTTP/1.1\r\nHost: api.wandb.ai\r\nUser-Agent: W&B Internal Client 0.20.1\r\nAccept-Encoding: gzip, deflate, br, zstd\r\nAccept: */*\r\nConnection: keep-alive\r\nContent-Length: 144\r\nContent-Type: application/json\r\nAuthorization: Basic YXBpOmY1NGRiYTBiZTFmNjZlNzkxZDc0NGI3NzdiZmJlYjRjNDUyODQyMDI=\r\n\r\n'
+2025-06-24 17:39:25 DEBUG send: b'{"complete": false, "failed": false, "dropped": 0, "uploaded": ["wandb-summary.json", "requirements.txt", "config.yaml", "wandb-metadata.json"]}'
+2025-06-24 17:39:25 DEBUG reply: 'HTTP/1.1 200 OK\r\n'
+2025-06-24 17:39:25 DEBUG header: Content-Encoding: br
+2025-06-24 17:39:25 DEBUG header: Ratelimit-Limit: 1000
+2025-06-24 17:39:25 DEBUG header: Ratelimit-Remaining: 973
+2025-06-24 17:39:25 DEBUG header: Ratelimit-Reset: 5
+2025-06-24 17:39:25 DEBUG header: Vary: Origin
+2025-06-24 17:39:25 DEBUG header: Date: Tue, 24 Jun 2025 08:39:25 GMT
+2025-06-24 17:39:25 DEBUG header: Content-Length: 208
+2025-06-24 17:39:25 DEBUG header: Via: 1.1 google
+2025-06-24 17:39:25 DEBUG header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+2025-06-24 17:39:25 DEBUG send: b'POST /files/mutyuu/my-awesome-project/xcwp3n0n/file_stream HTTP/1.1\r\nHost: api.wandb.ai\r\nUser-Agent: W&B Internal Client 0.20.1\r\nAccept-Encoding: gzip, deflate, br, zstd\r\nAccept: */*\r\nConnection: keep-alive\r\nContent-Length: 63\r\nContent-Type: application/json\r\nAuthorization: Basic YXBpOmY1NGRiYTBiZTFmNjZlNzkxZDc0NGI3NzdiZmJlYjRjNDUyODQyMDI=\r\n\r\n'
+2025-06-24 17:39:25 DEBUG send: b'{"complete": true, "exitcode": 0, "dropped": 0, "uploaded": []}'
+2025-06-24 17:39:25 DEBUG reply: 'HTTP/1.1 200 OK\r\n'
+2025-06-24 17:39:25 DEBUG header: Content-Encoding: br
+2025-06-24 17:39:25 DEBUG header: Ratelimit-Limit: 1000
+2025-06-24 17:39:25 DEBUG header: Ratelimit-Remaining: 960
+2025-06-24 17:39:25 DEBUG header: Ratelimit-Reset: 5
+2025-06-24 17:39:25 DEBUG header: Vary: Origin
+2025-06-24 17:39:25 DEBUG header: Date: Tue, 24 Jun 2025 08:39:25 GMT
+2025-06-24 17:39:25 DEBUG header: Content-Length: 211
+2025-06-24 17:39:25 DEBUG header: Via: 1.1 google
+2025-06-24 17:39:25 DEBUG header: Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000

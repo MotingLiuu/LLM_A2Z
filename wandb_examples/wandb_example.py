@@ -22,7 +22,7 @@ def initialize_wandb():
             "optimizer": random.choice(["Adam", "SGD", "RMSprop"]),
             "dropout_rate": 0.2 + random.random() * 0.3
         },
-        name=f"test-run-{int(time.time())}" # 为每次运行生成一个独特的名称
+        name=f"test-run-1",
     )
     print("WandB run 已成功初始化！")
     print(f"本次运行的超参数: {wandb.config}")
@@ -70,7 +70,6 @@ def log_visualizations():
     plt.close()
     wandb.log({"sample_image": wandb.Image(image_path)})
     print(f"已记录图片: {image_path}")
-    os.remove(image_path) # 清理生成的图片文件
 
     # 记录一个表格
     data = [
@@ -96,7 +95,6 @@ def log_model_artifact():
     # 使用 wandb.save() 上传文件
     wandb.save(model_filename)
     print(f"已将 '{model_filename}' 文件上传到 WandB。")
-    os.remove(model_filename) # 清理生成的模型文件
 
 # --- 主执行函数 ---
 def main():

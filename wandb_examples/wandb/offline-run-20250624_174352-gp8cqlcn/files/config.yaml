@@ -1,0 +1,37 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.13.2
+    cli_version: 0.20.1
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1750754633
+    t:
+      1:
+      - 105
+      3:
+      - 4
+      - 13
+      - 16
+      - 42
+      - 55
+      4: 3.13.2
+      5: 0.20.1
+      13: linux-x86_64
+learning_rate:
+  desc: null
+  value: 0.011420576583607182
+epochs:
+  desc: null
+  value: 10
+batch_size:
+  desc: null
+  value: 32
+optimizer:
+  desc: null
+  value: Adam
+dropout_rate:
+  desc: null
+  value: 0.3493505972665695

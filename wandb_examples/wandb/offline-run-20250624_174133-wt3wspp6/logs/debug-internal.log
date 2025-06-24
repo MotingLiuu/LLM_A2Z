@@ -1,0 +1,16 @@
+{"time":"2025-06-24T17:41:33.524330133+09:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/data/satori_hdd1/mutyuu/workspace/LLM_A2Z/wandb_examples/wandb/offline-run-20250624_174133-wt3wspp6/logs/debug-core.log"}
+{"time":"2025-06-24T17:41:33.639126325+09:00","level":"WARN","msg":"GraphQL client is nil, skipping feature loading"}
+{"time":"2025-06-24T17:41:33.640066218+09:00","level":"INFO","msg":"stream: created new stream","id":"wt3wspp6"}
+{"time":"2025-06-24T17:41:33.64011549+09:00","level":"INFO","msg":"stream: started","id":"wt3wspp6"}
+{"time":"2025-06-24T17:41:33.640181482+09:00","level":"INFO","msg":"writer: Do: started","stream_id":"wt3wspp6"}
+{"time":"2025-06-24T17:41:33.640282776+09:00","level":"INFO","msg":"handler: started","stream_id":"wt3wspp6"}
+{"time":"2025-06-24T17:41:33.640218513+09:00","level":"INFO","msg":"sender: started","stream_id":"wt3wspp6"}
+{"time":"2025-06-24T17:41:33.647069203+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-24T17:41:42.861333921+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-24T17:41:42.861427054+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-24T17:41:42.86275135+09:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-06-24T17:41:42.86672968+09:00","level":"INFO","msg":"stream: closing","id":"wt3wspp6"}
+{"time":"2025-06-24T17:41:42.866761391+09:00","level":"INFO","msg":"handler: closed","stream_id":"wt3wspp6"}
+{"time":"2025-06-24T17:41:42.866777872+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wt3wspp6"}
+{"time":"2025-06-24T17:41:42.866834224+09:00","level":"INFO","msg":"sender: closed","stream_id":"wt3wspp6"}
+{"time":"2025-06-24T17:41:42.867414154+09:00","level":"INFO","msg":"stream: closed","id":"wt3wspp6"}

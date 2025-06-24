@@ -1,0 +1,20 @@
+WandB run 已成功初始化！
+本次运行的超参数: {'learning_rate': 0.017282660773129378, 'epochs': 10, 'batch_size': 32, 'optimizer': 'SGD', 'dropout_rate': 0.49094381971285395}
+开始模拟训练过程...
+Epoch 1/10: Train Loss=1.5030, Val Accuracy=0.6199
+Epoch 2/10: Train Loss=1.4884, Val Accuracy=0.6551
+Epoch 3/10: Train Loss=1.3361, Val Accuracy=0.6678
+Epoch 4/10: Train Loss=1.2428, Val Accuracy=0.7019
+Epoch 5/10: Train Loss=1.1325, Val Accuracy=0.7436
+Epoch 6/10: Train Loss=1.0223, Val Accuracy=0.7555
+Epoch 7/10: Train Loss=0.9770, Val Accuracy=0.8040
+Epoch 8/10: Train Loss=0.8205, Val Accuracy=0.8276
+Epoch 9/10: Train Loss=0.7276, Val Accuracy=0.8481
+Epoch 10/10: Train Loss=0.6345, Val Accuracy=0.8902
+模拟训练完成。
+记录可视化对象...
+已记录图片: sample_plot.png
+已记录表格数据。
+模拟保存模型文件...
+已将 'my_dummy_model.pt' 文件上传到 WandB。
+结束 WandB run...
