@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field # dataclass，快速创建只包含数据（属性）的类，自动生成init方法等。 field用于定义类属性的默认值和元数据。元数据是一个字典，可以包含帮助信息等。
 from transformers import HfArgumentParser 
+import dataclasses
 
 @dataclass
 class ModelArguments:
@@ -52,6 +53,7 @@ if __name__ == "__main__":
     print(f"Train file: {data_args.train_file}")
     print(f"Learning rate: {sft_config.learning_rate}")
     print(f"type of model_args: {type(model_args)}")
+    print(f"field of model_args: {ModelArguments.__dataclass_fields__}")
     
 '''
 python example_HfArgument.py \
