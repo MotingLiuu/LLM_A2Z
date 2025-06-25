@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field # dataclass，快速创建只包含数据（属性）的类，自动生成init方法等。 field用于定义类属性的默认值和元数据。元数据是一个字典，可以包含帮助信息等。
-from transformers import H4ArgumentParser 
+from transformers import HfArgumentParser 
 
 @dataclass
 class ModelArguments:
@@ -45,9 +45,21 @@ class SFTConfig:
     )
 
 if __name__ == "__main__":
-    parser = H4ArgumentParser((ModelArguments, DataArguments, SFTConfig))
-    model_args, data_args, sft_config = parser.parse_args_into_dataclasses()
+    parser = HfArgumentParser((ModelArguments, DataArguments, SFTConfig))
+    model_args, data_args, sft_config = parser.parse_args_into_dataclasses() # 解析命令行参数为三个数据类的实例
 
     print(f"Model path: {model_args.model_name_or_path}")
     print(f"Train file: {data_args.train_file}")
     print(f"Learning rate: {sft_config.learning_rate}")
+    print(f"type of model_args: {type(model_args)}")
+    
+'''
+python example_HfArgument.py \
+    --model_name_or_path bert-base-uncased \
+    --tokenizer_name_or_path bert-base-uncased \
+    --train_file /path/to/your/training_data.jsonl \
+    --max_seq_length 256 \
+    --learning_rate 1e-4 \
+    --num_train_epochs 5 \
+    --output_dir ./my_sft_output
+'''
