@@ -1,0 +1,6 @@
+{"time":"2025-06-23T21:17:01.397709947+09:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/data/satori_hdd1/mutyuu/workspace/LLM_A2Z/examples_trl/wandb/run-20250623_211701-t03deeao/logs/debug-core.log"}
+{"time":"2025-06-23T21:17:01.518538368+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai on 192.168.100.1:53: server misbehaving"}
+{"time":"2025-06-23T21:17:03.922309892+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai on 192.168.100.1:53: server misbehaving"}
+{"time":"2025-06-23T21:17:08.202574647+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai on 192.168.100.1:53: server misbehaving"}
+{"time":"2025-06-23T21:17:18.133856067+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai on 192.168.100.1:53: server misbehaving"}
+{"time":"2025-06-23T21:17:37.683357682+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai on 192.168.100.1:53: server misbehaving"}

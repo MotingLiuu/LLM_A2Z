@@ -1,0 +1,10 @@
+2025-06-24 19:02:40,215 INFO    MainThread:3378574 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /data/satori_hdd1/mutyuu/workspace/LLM_A2Z/examples_trl/wandb/offline-run-20250624_190240-ku9656ed/logs/debug.log
+2025-06-24 19:02:40,215 INFO    MainThread:3378574 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /data/satori_hdd1/mutyuu/workspace/LLM_A2Z/examples_trl/wandb/offline-run-20250624_190240-ku9656ed/logs/debug-internal.log
+2025-06-24 19:02:40,215 INFO    MainThread:3378574 [wandb_init.py:init():831] calling init triggers
+2025-06-24 19:02:40,215 INFO    MainThread:3378574 [wandb_init.py:init():836] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-06-24 19:02:40,215 INFO    MainThread:3378574 [wandb_init.py:init():872] starting backend
+2025-06-24 19:02:40,215 INFO    MainThread:3378574 [wandb_init.py:init():875] sending inform_init request
+2025-06-24 19:02:40,216 INFO    MainThread:3378574 [wandb_init.py:init():883] backend started and connected
+2025-06-24 19:02:40,217 INFO    MainThread:3378574 [wandb_run.py:_label_probe_notebook():1299] probe notebook
+2025-06-24 19:02:40,218 INFO    MainThread:3378574 [wandb_init.py:init():956] updated telemetry
